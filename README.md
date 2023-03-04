@@ -1,5 +1,9 @@
-# Bert_Model_Basics
+# 1) Basics_of_BERT.ipynb
 
-This file containes the basic implementation of the Bert preprocessing model and Bert Encoder to convert words and sentences into embedding vectors.
+This file contains the basic implementation of the Bert model to convert words into embedding vectors with their contextual meaning.  it is achieved with the use of the library called Tensorflow_Hub. when this library used, the input data is converted into a certain format with the help of preprocessing model so that it can be processed by the encoder
 
-Bert Preprocessing model is used to apply tokenization, padding and adding tokens to mark the beginning and end of the sentence. that is all done by the pretrained bert pre processing model and that is done so that the encoder model can process that data to convert them into embedding vectors with their contextual meaning.
+# 2) Transformer and BERT implementation with HuggingFace.ipynb:
+
+This file uses Transformers library to download and use pretrained transformer based model like bert or distillbert. These model can be used in a variety of NLP tasks such as Sentiment analysis or text classification or movie review. However, a transformer based model can be created from scratch if these pretrained models don't give good accuracy. 
+
+

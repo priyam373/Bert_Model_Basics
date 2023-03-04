@@ -1,3 +1,6 @@
+# Purpose:
+the purpose of these files to use BERT to convert words into embedded vectors with contextual meaning and to use different pretrained transformer based models like BERT or DistillBert for different NLP tasks.
+
 # 1) Basics_of_BERT.ipynb
 
 This file contains the basic implementation of the Bert model to convert words into embedding vectors with their contextual meaning.  it is achieved with the use of the library called Tensorflow_Hub. when this library used, the input data is converted into a certain format with the help of preprocessing model so that it can be processed by the encoder
